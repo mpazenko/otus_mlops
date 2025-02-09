@@ -11,3 +11,5 @@ provider "yandex" {
   zone = "ru-central1-d"
   service_account_key_file = "/home/mpazenko/terraform_distrib/key.json"
 }
+
+dsds
