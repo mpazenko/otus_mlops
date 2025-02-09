@@ -1,0 +1,4 @@
+homework/**/*.tfvars
+homework/**/*.tfstate
+homework/**/*.tfvars.backup
+homework/**/*.tfvars
