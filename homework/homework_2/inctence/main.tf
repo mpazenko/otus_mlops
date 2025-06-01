@@ -8,5 +8,5 @@ terraform {
 }
 
 provider "yandex" {
-  service_account_key_file = = "/home/mpazenko/terraform_distrib/key.json"
+  service_account_key_file = "/home/mpazenko/terraform_distrib/key.json"
 }
