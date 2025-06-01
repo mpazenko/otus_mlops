@@ -2,3 +2,4 @@ homework/**/*.tfvars
 homework/**/*.tfstate
 homework/**/*.tfvars.backup
 homework/**/*.tfvars
+homework/homework_2/inctence/terraform.tfstate.backup
