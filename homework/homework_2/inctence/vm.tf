@@ -19,11 +19,13 @@ resource "yandex_compute_instance" "vm" {
   }
 
   network_interface {
-    subnet_id      = "e2lsa9cv0qvodorot0ku"
+    subnet_id      = "e2lphgn8145om2ve47ph"
     nat            = true
   }
 
+
+# Тут поменя имя
   metadata = {
-    ssh-keys  = "stureiko:${file("~/.ssh/id_ed25519.pub")}"
+    ssh-keys  = "mpazenko:${file("~/.ssh/id_rsa.pub")}"
   }
 }
