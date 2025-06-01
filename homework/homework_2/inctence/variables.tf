@@ -17,3 +17,11 @@ variable "zone" {
   type        = string
   default     = "ru-central1-b"
 }
+
+
+#=========== VM ==============
+variable "instances" {
+  type = map(object({
+    ami  = string
+  }))
+}
